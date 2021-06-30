@@ -3,6 +3,8 @@ sudo snap install core
 sudo snap install ruby --classic
 sudo gem install linux_logo
 cd lolcat-master
+#!/bin/bash
+linuxlogo -a | lolcat
 cd
 mkdir OpenRGB
 wget https://gitlab.com/CalcProgrammer1/OpenRGB/uploads/2fb9ea568772ed99035147a2632f0284/openrgb_0.5_arm64_88464d1.deb
