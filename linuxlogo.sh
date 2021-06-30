@@ -1,0 +1,1 @@
+linuxlogo -a | lolcat
