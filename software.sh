@@ -7,8 +7,8 @@ sudo gem install linux_logo
 cd lolcat-master
 nano linuxlogo.sh
 #!/bin/bash
-linuxlogo -a | lolcat
-chmod +x linuxlogo.sh
+echo linuxlogo -a | lolcat
+sh ./linuxlogo.sh
 cd 
 mkdir OpenRGB
 wget https://gitlab.com/CalcProgrammer1/OpenRGB/uploads/2fb9ea568772ed99035147a2632f0284/openrgb_0.5_arm64_88464d1.deb
