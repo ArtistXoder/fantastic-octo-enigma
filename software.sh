@@ -1,8 +1,11 @@
 # this is my installer scripts for the programs I use on my desktop!
+sudo apt-get update 
+sudo apt-get upgrade
 sudo snap install core
 sudo snap install ruby --classic
 sudo gem install linux_logo
 cd lolcat-master
+nano 
 #!/bin/bash
 linuxlogo -a | lolcat
 cd
