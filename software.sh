@@ -1,5 +1,5 @@
 # this is my installer scripts for the programs I use on my desktop!
-echo this software included Ruby Classic & gem & linux_logo & OpenRGB & Chromium & Arduino
+echo this software installer included Ruby Classic & gem & linux_logo & OpenRGB & Chromium & Arduino
 sudo apt-get update 
 sudo apt-get upgrade
 sudo snap install core
