@@ -1,3 +1,4 @@
+#!/bin/bash
 # this is my installer scripts for the programs I use on my desktop!
 echo this software installer included Ruby Classic & gem & linux_logo & OpenRGB & Chromium & Arduino
 sudo apt-get update 
@@ -6,7 +7,6 @@ sudo snap install core
 sudo snap install ruby --classic
 sudo gem install linux_logo                                
 cd lolcat-master
-#!/bin/bash
 linuxlogo -a | lolcat
 echo create a file using nano
 echo type nano linuxlogo.sh
