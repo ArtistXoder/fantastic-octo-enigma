@@ -6,6 +6,10 @@ git clone https://github.com/ArtistXoder/fantastic-octo-enigma.git
 # Running 
 cd fantastic-octo-enigma
 
+chmod +x software.sh
+
+bash software.sh 
+
 # Command to Start lolcat 
 type in linux terminal linuxlogo -a | lolcat
 
