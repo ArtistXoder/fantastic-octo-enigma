@@ -22,4 +22,3 @@ wget https://downloads.arduino.cc/arduino-1.8.15-linuxaarch64.tar.xz
 tar -xvf arduino-1.8.15-linuxaarch64.tar.xz
 cd arduino-1.8.15
 sudo ./install.sh 
-
