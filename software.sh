@@ -1,5 +1,11 @@
 #!/bin/bash
 echo this software installer included Ruby Classic & gem & linux_logo & OpenRGB & Chromium & Arduino
+read -p "Continue (y/n)?" choice
+case "$choice" in 
+  y|Y ) echo "yes";;
+  n|N ) echo "no";;
+  * ) echo "invalid";;
+esac
 sudo apt-get update 
 sudo apt-get upgrade
 sudo snap install core
