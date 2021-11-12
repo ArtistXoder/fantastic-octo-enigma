@@ -1,12 +1,14 @@
 #!/bin/bash
 echo this software installer included Ruby Classic & gem & linux_logo & OpenRGB & Chromium & Arduino
-read -p "Continue (y/n)?" choice
-case "$choice" in 
-  y|Y ) echo "yes";;
-  n|N ) echo "no";;
-  * ) echo "invalid";;
-esac
-sudo apt-get update 
+read -r -p "Are you sure you want to install? [y/N] " input
+case "$input" in
+	[yY][eE][sS]|[yY] | "")
+		;;
+	*)
+		# "No" should be the default case
+		exit
+		;;
+esacesacsudo apt-get update 
 sudo apt-get upgrade
 sudo snap install core
 sudo snap install ruby --classic
